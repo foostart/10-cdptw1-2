@@ -1,0 +1,16 @@
+.type-833 .full {
+  margin: 0;
+}
+.type-833 .tag-list li {
+  float: left;
+}
+.type-833 .title {
+  color: #fff;
+  background-color: #2C3E50;
+  background-color: #2C3F51;
+}
+@media (max-width: 992px) {
+  .type-833 .col-md-4 {
+    width: 100%;
+  }
+}
