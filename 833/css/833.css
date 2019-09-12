@@ -2,12 +2,16 @@
   margin: 0;
 }
 .type-833 .tag-list li {
+  overflow: hidden;
   float: left;
 }
 .type-833 .title {
   color: #fff;
   background-color: #2C3E50;
   background-color: #2C3F51;
+}
+.type-833 .tag-list li a :nth-child(4) {
+  padding-top: 10px;
 }
 @media (max-width: 992px) {
   .type-833 .col-md-4 {
