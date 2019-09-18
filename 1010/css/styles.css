@@ -1,0 +1,195 @@
+.fa-angle-right {
+  position: relative;
+  top: 50%;
+  transition: 0.5s;
+  transform: translateX(35px);
+}
+.fa-angle-left {
+  position: relative;
+  top: 50%;
+  transition: 0.5s;
+  transform: translateX(-35px);
+}
+.fa-angle-left {
+  position: relative;
+  top: 50%;
+}
+.type-20 h3 {
+  font-weight: bold;
+}
+.type-20 a {
+  color: #000;
+  text-decoration: none;
+}
+.type-20 .row > .column {
+  padding: 0 8px;
+}
+.type-20 .row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.type-20 .column {
+  float: left;
+  width: 25%;
+}
+.type-20 .modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: none;
+}
+.type-20 .modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin-left: 300px;
+  width: 40%;
+  max-width: 1200px;
+}
+.type-20 .close {
+  color: F2F0EE;
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 35px;
+  font-weight: bold;
+  background: #ADABAB;
+  width: 30px;
+  font-size: 2em;
+  padding-left: 6px;
+}
+.type-20 .close:hover,
+.type-20 .close:focus {
+  color: #999;
+  text-decoration: none;
+  cursor: pointer;
+}
+.type-20 .mySlides {
+  display: none;
+}
+.type-20 .prev,
+.type-20 .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+.type-20 .next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+.type-20 .prev:hover,
+.type-20 .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+.type-20 .numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+.type-20 .caption-container {
+  text-align: center;
+  padding: 2px 16px;
+  color: white;
+}
+.type-20 img.demo {
+  opacity: 0.6;
+}
+.type-20 .active,
+.type-20 .demo:hover {
+  opacity: 1;
+}
+.type-20 img.hover-shadow {
+  transition: 0.3s;
+}
+.type-20 .hover-shadow:hover {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.type-20 .carousel-inner {
+  position: relative;
+  width: 100%;
+  min-height: 300px;
+}
+.type-20 .carousel-control.right {
+  right: 0;
+  left: auto;
+  background-image: none !important;
+  background-repeat: repeat-x;
+}
+.type-20 .carousel-control.left {
+  left: 0;
+  right: auto;
+  background-image: none !important;
+  background-repeat: repeat-x;
+}
+.type-20 #carousel-example-generic {
+  margin: 20px auto;
+  width: 100%;
+}
+.type-20 .duongvien {
+  border-top: 2px solid #e24545;
+  width: 5%;
+}
+.type-20 #carousel-custom {
+  margin: 20px auto;
+  width: 210px;
+}
+.type-20 #carousel-custom .carousel-indicators {
+  margin: 10px 0 0;
+  overflow: auto;
+  position: static;
+  text-align: left;
+  white-space: nowrap;
+  width: 100%;
+  overflow: hidden;
+}
+.type-20 #carousel-custom .carousel-indicators li {
+  background-color: transparent;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+  display: inline-block;
+  height: auto;
+  margin: 0 !important;
+  width: auto;
+}
+.type-20 #carousel-custom .carousel-indicators li img {
+  display: block;
+  opacity: 0.5;
+}
+.type-20 #carousel-custom .carousel-indicators li.active img {
+  opacity: 1;
+}
+.type-20 #carousel-custom .carousel-indicators li:hover img {
+  opacity: 0.75;
+}
+.type-20 #carousel-custom .carousel-outer {
+  position: relative;
+  overflow: hidden;
+}
+.type-20 #carousel-custom .carousel-outer:hover .fa-angle-right {
+  transform: translateX(0px);
+}
+.type-20 #carousel-custom .carousel-outer:hover .fa-angle-left {
+  transform: translateX(0px);
+}
+.type-20 .carousel-indicators li img {
+  height: auto;
+  width: 50px;
+}
