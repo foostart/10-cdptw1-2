@@ -23,9 +23,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="<?php echo $url_path ?>/css/1015.css" rel="stylesheet" type="text/css"/>
     <link rel="stylesheet" type="text/css" href="<?php echo $url_path ?>/css/bootstrap.min.css"/>
-    <link rel="stylesheet" type="text/css" href="<?php echo $url_path ?>/js/bootstrap.min.js"/>
+    <link href="<?php echo $url_path ?>/css/font-awesome.min.css" rel="stylesheet">
+
+    <script src="<?php echo $url_path ?>/js/jquery-3.1.1.min.js"></script>
+	<script src="<?php echo $url_path ?>/js/bootstrap.min.js"></script>
+    <script src="<?php echo $url_path ?>/js/1015.js"></script>
+
 </head>
 <body>
-     <?php include $dir_block.'/1015-content.php'; ?>
+     <?php include '1015-content.php'; ?>
+
 </body>
 </html>
