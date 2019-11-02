@@ -23,11 +23,13 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="css/1011.css" rel="stylesheet" type="text/css"/>
         <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>   
+        <link href="<?php echo $url_path ?>/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+
         <script src="<?php echo $url_path ?>/js/jquery.min.js"></script>
         <script src="<?php echo $url_path ?>/js/bootstrap.min.js"></script>
-        <link href="<?php echo $url_path ?>/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+        <script src="<?php echo $url_path ?>/js/1011.js"></script>
     </head>
     <body>
-        <?php include $dir_block.'/1011-content.php'; ?>
+        <?php include '1011-content.php'; ?>
     </body>
 </html>

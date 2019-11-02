@@ -1,29 +1,29 @@
-.type-21 {
+.type-1011 {
   position: relative;
   top: 65px;
 }
-.type-21 .thanhdoc {
+.type-1011 .thanhdoc {
   border: 1px solid #EEEEEE;
 }
-.type-21 .nav-tabs>li.active>a,
-.type-21 .nav-tabs>li.active>a:focus,
-.type-21 .nav-tabs>li.active>a:hover {
+.type-1011 .nav-tabs>li.active>a,
+.type-1011 .nav-tabs>li.active>a:focus,
+.type-1011 .nav-tabs>li.active>a:hover {
   border: none;
   color: #cccccc;
   border-bottom: 2px solid #e24545;
   width: 10%;
 }
-.type-21 .nav-tabs {
+.type-1011 .nav-tabs {
   margin-top: 40px;
   border: none;
 }
-.type-21 .nav>li>a {
+.type-1011 .nav>li>a {
   padding: 0;
 }
-.type-21 .nav-tabs>li {
+.type-1011 .nav-tabs>li {
   padding-right: 24px;
 }
-.type-21 .nav>li>a {
+.type-1011 .nav>li>a {
   font-weight: bold;
   color: #000;
   border-bottom: 2px solid #e24545;
@@ -31,102 +31,95 @@
   font-size: 18px;
   border: none;
 }
-.type-21 .tab-content>.active {
+.type-1011 #home {
   margin-top: 36px;
   line-height: 1.7;
+  border: 5px solid #f1eeee;
 }
-.type-21 .fa1 {
+.type-1011 #home p {
+  font-size: 1.5em;
+  padding: 25px;
+}
+.type-1011 .fa1 {
   float: right;
 }
-.type-21 .fa1 .fa {
+.type-1011 .fa1 .fa {
   color: #e24545;
 }
-.type-21 .gach {
+.type-1011 .gach {
   border-bottom: 1px solid #EEEEEE;
 }
-.type-21 .amin {
+.type-1011 #menu1 {
+  margin-top: 36px;
+}
+.type-1011 .amin {
   color: #878787;
 }
-.type-21 button,
-.type-21 input,
-.type-21 select,
-.type-21 textarea {
+.type-1011 button,
+.type-1011 input,
+.type-1011 select,
+.type-1011 textarea {
   font-family: inherit;
   font-size: inherit;
   line-height: inherit;
   margin-left: 88px;
 }
-.type-21 label.email {
+.type-1011 label.email {
   margin-top: 20px;
   position: absolute;
 }
-.type-21 input#authors {
+.type-1011 input#authors {
   margin-top: 17px;
   border: 2px solid #ececec;
 }
-.type-21 .time {
+.type-1011 .time {
   color: #929292;
 }
-.type-21 .cmttext1 {
-  margin: 0 15px;
-}
-.type-21 .cmttext {
-  padding: 15px 0;
-}
-.type-21 .cmt {
-  margin-top: -15px;
-}
-.type-21 .add h3 {
+.type-1011 .add h3 {
   text-transform: uppercase;
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
   font-size: 22px;
-  padding-bottom: 37px;
   font-style: normal;
 }
-.type-21 .required {
+.type-1011 .required {
   color: red;
 }
-.type-21 .star1:hover {
-  color: #FFC816;
+.type-1011 .star-rating {
+  line-height: 32px;
+  font-size: 1.25em;
 }
-.type-21 .star4:hover {
-  color: #FFC816;
+.type-1011 .star-rating .fa-star {
+  color: #D26E4B;
 }
-.type-21 .star1,
-.type-21 .star4 .fa {
-  color: #DDDDDD;
+.type-1011 .cmt {
+  padding-top: 20px;
 }
-.type-21 .star1,
-.type-21 .star4 {
-  border-right: 1px solid #EEEEEE;
-  padding-right: 5px;
-}
-.type-21 .txt #comment {
+.type-1011 .txt #comment {
   height: 117px;
   width: 80%;
   box-sizing: border-box;
 }
-.type-21 .txt {
+.type-1011 .txt {
   margin: 22px 0;
 }
-.type-21 #comment {
+.type-1011 #comment {
   resize: none;
   border: 2px solid #ececec;
 }
-.type-21 #author {
+.type-1011 #author {
   resize: none;
   border: 2px solid #ececec;
   height: 47px;
   width: 339px;
   margin: 0 33px;
 }
-.type-21 .txt1 #author {
+.type-1011 .txt1 #author {
   height: 28px;
   margin: 0;
   width: 80%;
 }
-.type-21 .dangnhap {
+.type-1011 .dangnhap {
   padding: 5px;
   background: none;
   transition: all 300ms ease 0s;
@@ -135,24 +128,21 @@
   font-weight: bold;
   width: 99px;
 }
-.type-21 .dangnhap:hover {
+.type-1011 .dangnhap:hover {
   background: #E24545;
   color: #fff;
   border: 2px solid #E24545;
 }
-.type-21 .dp .dangnhap {
+.type-1011 .dp .dangnhap {
   margin: 24px 170px;
 }
-.type-21 .hinh {
+.type-1011 .hinh {
   padding: 0;
 }
-.type-21 .add {
-  margin-top: 66px;
-}
-.type-21 .admin {
+.type-1011 .admin {
   margin-left: -45px;
 }
-.type-21 .nav>li>a:hover {
+.type-1011 .nav>li>a:hover {
   background: none;
 }
 @media screen and (max-width: 992px) {
@@ -168,42 +158,8 @@
   .stype-107 .dp .dangnhap {
     float: left;
   }
-  .name {
-    width: 50px;
-  }
-  .cmttext {
-    float: left;
-  }
   .hinhnguoi {
     float: left;
     margin-right: 15px;
-  }
-  input {
-    width: 80px;
-  }
-  .type-21 .txt #comment {
-    width: 63%;
-  }
-  .type-21 #author {
-    width: 178px;
-  }
-  .type-21 input#authors {
-    margin-top: 17px;
-    border: 2px solid #ececec;
-    width: 62%;
-  }
-  .type-21 .dp .dangnhap {
-    margin: 25px 100px;
-  }
-  .type-21 p.esum {
-    font-size: 12px;
-    padding-left: 46px;
-  }
-  .type-21 p.text {
-    font-size: 15px;
-    margin-top: -32px;
-  }
-  .type-21 .add {
-    margin-top: 23px;
   }
 }
