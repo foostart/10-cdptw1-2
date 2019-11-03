@@ -57,6 +57,28 @@ $url_path = str_replace('\\', '/', $url_path);
                                 </div>
                             </div>
                         </div>
+
+                        <div class="row">
+                            <div class="col-md-2">
+                                <img src="<?php echo $url_path ?>/images/matnguoi.jpeg" alt="" class="img-responsive">
+
+                            </div>
+                            <div class="col-md-10">
+                                <div class="admin">
+                                    <strong class="amin">amin</strong>
+                                    -
+                                    <span class="time">December 4, 2015</span>
+                                    <div class="fa1">
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                    </div>
+                                    <p class="esum">Proin est elentesque risus magna vulputate vitae sodales uam morbi non sem lacus porta mollis. Nunc condime ntum metus eud In molestie sed consect etu Lorem ipsum dolor sit amet conse adipisicing elit sed do incididunt ut labore et dolore magna.</p>
+                                </div>
+                            </div>
+                        </div>
                         <div class="add">
                             <h3>ADD A REVIEW</h3>
                         </div>
