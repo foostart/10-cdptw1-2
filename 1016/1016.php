@@ -19,7 +19,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Document</title>
+    <title>1016</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="<?php echo $url_path ?>/css/1016.css" rel="stylesheet" type="text/css"/>
     <link rel="stylesheet" type="text/css" href="<?php echo $url_path ?>/css/bootstrap.min.css"/>

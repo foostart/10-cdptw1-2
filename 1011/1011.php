@@ -19,7 +19,7 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <title>module 1011</title>
+        <title>1011</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="css/1011.css" rel="stylesheet" type="text/css"/>
         <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>   

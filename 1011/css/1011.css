@@ -35,6 +35,7 @@
   margin-top: 36px;
   line-height: 1.7;
   border: 5px solid #f1eeee;
+  margin-bottom: 30px;
 }
 .type-1011 #home p {
   font-size: 1.5em;
@@ -42,6 +43,7 @@
 }
 .type-1011 .fa1 {
   float: right;
+  padding-right: 22px;
 }
 .type-1011 .fa1 .fa {
   color: #e24545;
@@ -54,15 +56,6 @@
 }
 .type-1011 .amin {
   color: #878787;
-}
-.type-1011 button,
-.type-1011 input,
-.type-1011 select,
-.type-1011 textarea {
-  font-family: inherit;
-  font-size: inherit;
-  line-height: inherit;
-  margin-left: 88px;
 }
 .type-1011 label.email {
   margin-top: 20px;
@@ -92,50 +85,24 @@
 .type-1011 .star-rating .fa-star {
   color: #D26E4B;
 }
-.type-1011 .cmt {
-  padding-top: 20px;
-}
-.type-1011 .txt #comment {
-  height: 117px;
-  width: 80%;
-  box-sizing: border-box;
-}
-.type-1011 .txt {
-  margin: 22px 0;
-}
-.type-1011 #comment {
-  resize: none;
-  border: 2px solid #ececec;
-}
-.type-1011 #author {
-  resize: none;
-  border: 2px solid #ececec;
-  height: 47px;
-  width: 339px;
-  margin: 0 33px;
-}
-.type-1011 .txt1 #author {
-  height: 28px;
-  margin: 0;
-  width: 80%;
+.type-1011 .form-group label {
+  font-size: 1.5em;
 }
 .type-1011 .dangnhap {
   padding: 5px;
   background: none;
   transition: all 300ms ease 0s;
   font-size: 13px;
-  border: 2px solid #000;
+  border: 2px solid #706868;
   font-weight: bold;
   width: 99px;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 .type-1011 .dangnhap:hover {
   background: #E24545;
   color: #fff;
   border: 2px solid #E24545;
-}
-.type-1011 .dp .dangnhap {
-  margin-top: 15px;
-  margin-bottom: 15px;
 }
 .type-1011 .hinh {
   padding: 0;

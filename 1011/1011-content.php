@@ -43,7 +43,7 @@ $url_path = str_replace('\\', '/', $url_path);
                             </div>
                             <div class="col-md-10">
                                 <div class="admin">
-                                    <strong class="amin">amin</strong>
+                                    <strong class="amin">admin</strong>
                                     -
                                     <span class="time">December 4, 2015</span>
                                     <div class="fa1">
@@ -65,7 +65,7 @@ $url_path = str_replace('\\', '/', $url_path);
                             </div>
                             <div class="col-md-10">
                                 <div class="admin">
-                                    <strong class="amin">amin</strong>
+                                    <strong class="amin">admin</strong>
                                     -
                                     <span class="time">December 4, 2015</span>
                                     <div class="fa1">
@@ -79,6 +79,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                 </div>
                             </div>
                         </div>
+
                         <div class="add">
                             <h3>ADD A REVIEW</h3>
                         </div>
@@ -91,33 +92,26 @@ $url_path = str_replace('\\', '/', $url_path);
                                 <label class="rating">YOUR RATING</label>
                             </p>
                             <div class="star-rating">
-                                            <span class="fa fa-star-o" data-rating="1"></span>
-                                            <span class="fa fa-star-o" data-rating="2"></span>
-                                            <span class="fa fa-star-o" data-rating="3"></span>
-                                            <span class="fa fa-star-o" data-rating="4"></span>
-                                            <span class="fa fa-star-o" data-rating="5"></span>
-                                            <input type="hidden" name="whatever1" class="rating-value" value="0.56">
-                                    </div>
-                            <label class="cmt">YOUR REVIEW
-                                <span class="required">*</span>
-                            </label>
-
-                            <div class="txt">
-                                <textarea id="comment" name="comment"></textarea>
+                                <span class="fa fa-star-o" data-rating="1"></span>
+                                <span class="fa fa-star-o" data-rating="2"></span>
+                                <span class="fa fa-star-o" data-rating="3"></span>
+                                <span class="fa fa-star-o" data-rating="4"></span>
+                                <span class="fa fa-star-o" data-rating="5"></span>
+                                <input type="hidden" name="whatever1" class="rating-value" value="0.56">
                             </div>
-                            <p>
-                                <label>NAME
-                                    <span class="required">*</span>
-                                </label>
-                                <label class="name">
-                                    <input id="author" name="author" type="text" value="" size="30" aria-required="true" required="">
-                                </label>
-                            </p>
-                            <label class="email">EMAIL
-                                <span class="required">*</span>
-                            </label>
-                            <div class="txt1">
-                                <input id="authors" name="author" type="text" value="" size="30" aria-required="true" required="">
+                            <div class="form-group">
+                                <label for="comment">Your review *</label>
+                                <textarea class="form-control" rows="6" id="comment"></textarea>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <label for="name">Name *</label>
+                                    <input type="text" class="form-control input-lg" id="name">
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="name">Email *</label>
+                                    <input type="email" class="form-control input-lg" id="name">
+                                </div>
                             </div>
                             <div class="dp">
                                 <button type="submit" class="dangnhap">SUBMIT</button>
