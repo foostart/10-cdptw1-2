@@ -1,55 +1,74 @@
-.stype-16 .produt1 {
-  font-size: 26px;
+.stype-16 {
+  background: #251a66;
 }
-.stype-16 .produt1 .price_filter-2 {
-  margin-bottom: 40px;
-  font-size: 26px;
+.stype-16 .content {
+  padding-top: 20px;
 }
-.stype-16 .produt1 .price_filter-2 .menu-item {
-  font-size: 15px;
-  display: inline-block;
-  margin-top: 7px;
-  padding-bottom: 12px;
-  font-weight: bold;
-  padding-top: 25px;
-}
-.stype-16 .produt1 .price_filter-2 .duongvien {
-  border: 1px solid #e24545;
-  width: 15px;
-}
-.filte button {
-  border: 2px solid #333;
-  background: none;
-  font-family: 'Montserrat', sans-serif;
-  text-transform: uppercase;
-  font-size: 13px;
-  line-height: 1.333;
-  color: #333;
-  padding: 8px 22px;
-  width: 25%;
-  margin-top: 8px;
-  letter-spacing: 4px;
-}
-.filte button:hover {
-  background-color: #e24545;
-  border-color: #e24545;
-  text-decoration: none;
-  background: #e24545;
-  color: #fff;
-}
-.filte .price_lable {
-  padding-top: 10px;
-  font-size: 13px;
+.stype-16 .content h1 {
   text-align: center;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-family: Segoe UI Black;
+}
+.stype-16 .content .pay {
+  text-align: center;
+}
+.stype-16 .content .pay h3 {
+  color: #ffffff;
   display: inline-block;
-  padding: 15px;
-  width: 25%;
-  background: #ececec;
-  margin-top: 15px;
 }
-.filte img {
-  margin-top: 30px;
+.stype-16 .content .pay h2 {
+  display: inline-block;
+  color: #48cdd6;
+  font-size: 3.5em;
+  font-weight: bold;
 }
-.filte .images img {
-  width: 25%;
+.stype-16 .content .bor {
+  position: absolute;
+  margin-left: 241px;
+  margin-top: -28px;
+  width: 120px;
+  background: #ffffff;
+  height: 2px;
+  text-align: center;
+}
+.stype-16 .content p {
+  color: #ffffff;
+  font-size: 1.8em;
+  text-align: center;
+}
+.stype-16 .content p .price {
+  color: #e93cc3;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+.stype-16 .content .end {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+.stype-16 .content .end label {
+  color: #a0a0a0;
+}
+.stype-16 .content .btn {
+  display: flex;
+  justify-content: center;
+}
+.stype-16 .content .btn button {
+  color: #e93cc3;
+  border: 1px solid #ffffff;
+  text-transform: uppercase;
+  font-size: 2.5em;
+  padding: 10px 30px;
+  background: #180c50;
+  margin-top: 17px;
+}
+.stype-16 .picture {
+  padding-top: 42px;
+}
+@media (max-width: 767px) {
+  h1 {
+    font-size: 2em !important;
+    line-height: 1.5 !important;
+  }
 }

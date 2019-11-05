@@ -17,6 +17,13 @@ $(document).ready(function () {
             $('.menu-2').css('top','-180px');
         }
     });
+    $('.dropdown').click(function(){
+        setTimeout(() => {
+             $(this).addClass('open');
+        }, 50);
+       
+     
+    });
 });
 function openNav() {
     $("#mySidenav").css('width', "324px");

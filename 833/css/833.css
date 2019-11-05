@@ -1,20 +1,34 @@
-.type-833 .full {
-  margin: 0;
+.type-833 {
+  width: 100%;
 }
-.type-833 .tag-list li {
-  overflow: hidden;
-  float: left;
+.type-833 h1 {
+  text-transform: uppercase;
+  font-weight: bold;
 }
-.type-833 .title {
+.type-833 .tab {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.type-833 .tab table {
+  text-align: center;
+}
+.type-833 .tab table tr th {
+  border: 1px solid black;
+  padding: 15px;
+  background: #23365e;
   color: #fff;
-  background-color: #2C3E50;
-  background-color: #2C3F51;
+  font-weight: bold;
+  font-size: 2em;
 }
-.type-833 .tag-list li a :nth-child(4) {
-  padding-top: 10px;
+.type-833 .tab table tr td {
+  border: 1px solid black;
+  padding: 15px;
+  font-weight: bold;
+  font-size: 1.5em;
 }
-@media (max-width: 992px) {
-  .type-833 .col-md-4 {
-    width: 100%;
-  }
+.type-833 .tab table .van {
+  background: #fff;
+}
+.type-833 .tab table .toan {
+  background: #b6e7e5;
 }

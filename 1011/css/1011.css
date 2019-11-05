@@ -11,7 +11,7 @@
   border: none;
   color: #cccccc;
   border-bottom: 2px solid #e24545;
-  width: 10%;
+  width: 20%;
 }
 .type-1011 .nav-tabs {
   margin-top: 40px;
@@ -83,6 +83,20 @@
   font-size: 1.25em;
 }
 .type-1011 .star-rating .fa-star {
+  color: #D26E4B;
+}
+.type-1011 .star-rating-one {
+  line-height: 32px;
+  font-size: 1.25em;
+}
+.type-1011 .star-rating-one .fa-star {
+  color: #D26E4B;
+}
+.type-1011 .star-rating-two {
+  line-height: 32px;
+  font-size: 1.25em;
+}
+.type-1011 .star-rating-two .fa-star {
   color: #D26E4B;
 }
 .type-1011 .form-group label {

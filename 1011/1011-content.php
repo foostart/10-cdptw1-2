@@ -46,12 +46,13 @@ $url_path = str_replace('\\', '/', $url_path);
                                     <strong class="amin">admin</strong>
                                     -
                                     <span class="time">December 4, 2015</span>
-                                    <div class="fa1">
-                                        <i class="fa fa-star" aria-hidden="true"></i>
-                                        <i class="fa fa-star" aria-hidden="true"></i>
-                                        <i class="fa fa-star" aria-hidden="true"></i>
-                                        <i class="fa fa-star" aria-hidden="true"></i>
-                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                    <div class="star-rating-one">
+                                        <span class="fa fa-star-o" data-rating="1"></span>
+                                        <span class="fa fa-star-o" data-rating="2"></span>
+                                        <span class="fa fa-star-o" data-rating="3"></span>
+                                        <span class="fa fa-star-o" data-rating="4"></span>
+                                        <span class="fa fa-star-o" data-rating="5"></span>
+                                        <input type="hidden" name="whatever1" class="rating-value-one" value="0.56">
                                     </div>
                                     <p class="esum">Proin est elentesque risus magna vulputate vitae sodales uam morbi non sem lacus porta mollis. Nunc condime ntum metus eud In molestie sed consect etu Lorem ipsum dolor sit amet conse adipisicing elit sed do incididunt ut labore et dolore magna.</p>
                                 </div>
@@ -68,12 +69,13 @@ $url_path = str_replace('\\', '/', $url_path);
                                     <strong class="amin">admin</strong>
                                     -
                                     <span class="time">December 4, 2015</span>
-                                    <div class="fa1">
-                                        <i class="fa fa-star" aria-hidden="true"></i>
-                                        <i class="fa fa-star" aria-hidden="true"></i>
-                                        <i class="fa fa-star" aria-hidden="true"></i>
-                                        <i class="fa fa-star" aria-hidden="true"></i>
-                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                    <div class="star-rating-two">
+                                        <span class="fa fa-star-o" data-rating="1"></span>
+                                        <span class="fa fa-star-o" data-rating="2"></span>
+                                        <span class="fa fa-star-o" data-rating="3"></span>
+                                        <span class="fa fa-star-o" data-rating="4"></span>
+                                        <span class="fa fa-star-o" data-rating="5"></span>
+                                        <input type="hidden" name="whatever1" class="rating-value-two" value="0.56">
                                     </div>
                                     <p class="esum">Proin est elentesque risus magna vulputate vitae sodales uam morbi non sem lacus porta mollis. Nunc condime ntum metus eud In molestie sed consect etu Lorem ipsum dolor sit amet conse adipisicing elit sed do incididunt ut labore et dolore magna.</p>
                                 </div>

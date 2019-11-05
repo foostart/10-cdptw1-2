@@ -12,142 +12,92 @@ $url_path = $url_host . $matches[1][0];
 $url_path = str_replace('\\', '/', $url_path);
 ?>
 <div class="type-833">
-	<div class="row full">
-		<ul class="nav nav-pills nav-stacked tag-list">
-			<li class="col-md-4">
-				<a href="#" class="title" style="background-color: #2C3E50;">
-			  		<span class="badge pull-right">204</span>user interface
-				</a>
-			</li>
-			<li class="col-md-4">
-				<a href="#" class="title" style="background-color: #2C3F51;">
-			  		<span class="badge pull-right">137</span>forms
-				</a>
-			</li>
-			<li class="col-md-4">
-				<a href="#" class="title" style="background-color: #2C4053;">
-			  		<span class="badge pull-right">119</span>lists
-				</a>
-			</li>
-			<li class="col-md-4">
-				<a href="#" class="title titleLine2" style="background-color: #2C4155;">
-			  		<span class="badge pull-right">83</span>layouts
-				</a>
-			</li>
-			<li class="col-md-4">
-				<a href="#" class="title titleLine2" style="background-color: #2C4357;">
-			  		<span class="badge pull-right">81</span>buttons
-				</a>
-			</li>
-			<li class="col-md-4">
-				<a href="#" class="title titleLine2" style="background-color: #2C4459;">
-			  		<span class="badge pull-right">62</span>menu
-				</a>
-			</li>
-			<li class="col-md-4">
-				<a href="#" class="title" style="background-color: #2C455B;">
-			  		<span class="badge pull-right">62</span>user
-				</a>
-			</li>
-			<li class="col-md-4">
-				<a href="#" class="title" style="background-color: #2C465D;">
-			  		<span class="badge pull-right">59</span>responsive
-				</a>
-			</li>
-			<li class="col-md-4">
-				<a href="#" class="title" style="background-color: #2C485F;">
-			  		<span class="badge pull-right">59</span>animation
-				</a>
-			</li>
-			<li class="col-md-4">
-				<a href="#" class="title" style="background-color: #2D4961;">
-			  		<span class="badge pull-right">58</span>login
-				</a>
-			</li>
-			<li class="col-md-4">
-				<a href="#" class="title" style="background-color: #2D4A63;">
-			  	<span class="badge pull-right">46</span>
-			  	jquery
-				</a>
-			</li>
-			<li class="col-md-4">
-				<a href="#" class="title" style="background-color: #2D4B65;">
-			  	<span class="badge pull-right">43</span>
-			  	shop
-				</a>
-			</li>
-			<li class="col-md-4">
-				<a href="#" class="title" style="background-color: #2D4D67;">
-			  	<span class="badge pull-right">39</span>
-			  	panel
-				</a>
-			</li>
-			<li class="col-md-4">
-				<a href="#" class="title" style="background-color: #2D4E69;">
-			  	<span class="badge pull-right">39</span>
-			  	table
-				</a>
-			</li>
-			<li class="col-md-4">
-				<a href="#" class="title" style="background-color: #2D4F6B;">
-			  	<span class="badge pull-right">38</span>
-			  	images
-				</a>
-			</li>
-			<li class="col-md-4">
-				<a href="#" class="title" style="background-color: #2D516D;">
-			  	<span class="badge pull-right">37</span>
-			  	carousel
-				</a>
-			</li>
-			<li class="col-md-4">
-				<a href="#" class="title" style="background-color: #2D526F;">
-			  	<span class="badge pull-right">37</span>
-			  	navbar
-				</a>
-			</li>
-			<li class="col-md-4">
-				<a href="#" class="title" style="background-color: #2D5371;">
-			  	<span class="badge pull-right">35</span>
-			  	navigation
-				</a>
-			</li>
-			<li class="col-md-4">
-				<a href="#" class="title" style="background-color: #2E5473;">
-			  	<span class="badge pull-right">31</span>
-			  	profile
-				</a>
-			</li>
-			<li class="col-md-4">
-				<a href="#" class="title" style="background-color: #2E5675;">
-			  	<span class="badge pull-right">31</span>
-			  	modal
-				</a>
-			</li>
-			<li class="col-md-4">
-				<a href="#" class="title" style="background-color: #2E5777;">
-			  	<span class="badge pull-right">29</span>
-			  	admin
-				</a>
-			</li>
-			<li class="col-md-4">
-				<a href="#" class="title" style="background-color: #2E5879;">
-			  	<span class="badge pull-right">27</span>
-			  	blog
-				</a>
-			</li>
-			<li class="col-md-4">
-				<a href="#" class="title" style="background-color: #2E597B;">
-			  	<span class="badge pull-right">25</span>
-			  	search
-				</a>
-			</li>
-			<li class="col-md-4">
-				<a href="#" class="title" style="background-color: #2E5B7D;">
-			  	<span class="badge pull-right">23</span>
-			  	ecommerce
-				</a>
-			</li>
-		</ul>
+	<div class="container">
+		<h1>điểm thi hk1</h1>
+		<h3>Họ và tên: Huỳnh Văn Nam</h3>
+		<h3>Lớp: 10A8</h3>
+		<div class="tab">
+			<table>
+				<tr>
+					<th>STT</th>
+					<th>MÔN</th>
+					<th>M</th>
+					<th>15'</th>
+					<th>1T</th>
+					<th>Thi</th>
+					<th>DTB</th>
+				</tr>
+
+				<tr class="toan">
+					<td>1</td>
+					<td>Toán</td>
+					<td>9</td>
+					<td>7.5</td>
+					<td>8</td>
+					<td>9</td>
+					<td>9</td>
+				</tr>
+
+				<tr class="van">
+					<td>2</td>
+					<td>Ngữ Văn</td>
+					<td>6.5</td>
+					<td>7.5</td>
+					<td>8</td>
+					<td>9</td>
+					<td>9</td>
+				</tr>
+
+				<tr class="toan">
+					<td>3</td>
+					<td>Tiếng Anh</td>
+					<td>6.5</td>
+					<td>7.5</td>
+					<td>5.5</td>
+					<td>9</td>
+					<td>9</td>
+				</tr>
+
+				<tr class="van">
+					<td>4</td>
+					<td>Vật Lý</td>
+					<td>6.5</td>
+					<td>7.5</td>
+					<td>8</td>
+					<td>9</td>
+					<td>9</td>
+				</tr>
+
+				<tr class="toan">
+					<td>5</td>
+					<td>Địa Lý</td>
+					<td>6.5</td>
+					<td>7.5</td>
+					<td>8</td>
+					<td>9</td>
+					<td>9</td>
+				</tr>
+
+				<tr class="van">
+					<td>6</td>
+					<td>Lịch Sử</td>
+					<td>6.5</td>
+					<td>7.5</td>
+					<td>8</td>
+					<td>9</td>
+					<td>9</td>
+				</tr>
+
+				<tr class="toan">
+					<td>7</td>
+					<td>Hóa Học</td>
+					<td>6.5</td>
+					<td>7.5</td>
+					<td>8</td>
+					<td>9</td>
+					<td>9</td>
+				</tr>
+			</table>
+		</div>
 	</div>
 </div>
