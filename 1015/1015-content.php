@@ -76,8 +76,8 @@ $url_path = str_replace('\\', '/', $url_path);
                     <a href="#" class="dropdown-toggle">BLOG</a>
                     <a href="#" class="right-dropdown" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-angle-down" aria-hidden="true"></i></a>
                     <ul class="dropdown-menu">
+                        <li><a href="#">Content</a></li>
                         <li><a href="#">Action</a></li>
-                        <li><a href="#">Another action</a></li>
                         <li><a href="#">Something else here</a></li>
                     </ul>
                 </li>
